@@ -32,11 +32,8 @@ def stage(ctx):
             }, {
                 "tool": "shell",
                 "script": """
-                    wget https://github.com/sharkdp/bat/releases/download/v0.20.0/bat-v0.20.0-x86_64-unknown-linux-gnu.tar.gz
-                    tar -zxvf bat-v0.20.0-x86_64-unknown-linux-gnu.tar.gz
-                    chmod a+x bat-v0.20.0-x86_64-unknown-linux-gnu/bat
-                    sudo mv bat-v0.20.0-x86_64-unknown-linux-gnu/bat /usr/bin
-                    echo '#/bin/bash\nbat --color always $1' > cat.sh
+                    sudo apt install highlight
+                    echo '#/bin/bash\nhighlight -O xterm256 $1' > cat.sh
                     chmod a+x cat.sh
                     sudo mv cat.sh /usr/bin/cat
                 """
