@@ -31,6 +31,14 @@ def stage(ctx):
                 "branch": "main"
             }, {
                 "tool": "shell",
+                "script": """
+                    wget https://github.com/sharkdp/bat/releases/download/v0.20.0/bat-v0.20.0-x86_64-unknown-linux-gnu.tar.gz
+                    tar -zxvf bat-v0.20.0-x86_64-unknown-linux-gnu.tar.gz
+                    chmod a+x bat-v0.20.0-x86_64-unknown-linux-gnu/bat
+                    sudo mv bat-v0.20.0-x86_64-unknown-linux-gnu/bat /usr/bin/cat
+                """
+            }, {
+                "tool": "shell",
                 "cmd": "./run.sh %s" % lang_name,
                 "cwd": "hello-worlds"
             }],
