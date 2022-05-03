@@ -4,6 +4,7 @@ def stage(ctx):
         ('C++', 'gcc:11.3'),
         ('C#', 'mono:6.12'),
         ('Clojure', 'clojure:1.11'),
+        ('Crystal', 'crystal:1.4'),
         ('Dart', 'dart:2.16'),
         ('Elixir', 'elixir:1.13'),
         ('Erlang', 'erlang:23.3'),
