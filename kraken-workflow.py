@@ -10,6 +10,7 @@ def stage(ctx):
         ('Groovy', 'groovy:3.0'),
         ('Haxe', 'haxe:4.2'),
         ('Java', 'openjdk:11'),
+        ('Julia', 'julia:1.7'),
         ('Perl', 'perl:5.34'),
         ('PHP', 'php:8.0'),
         ('Python', 'python:3.8'),

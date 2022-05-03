@@ -16,6 +16,7 @@ case $lang in
     Groovy)  cd $lang; make run;;
     Haxe)    cd $lang; make run;;
     Java)    cd $lang; make run;;
+    Julia)   cd $lang; make run;;
     Perl)    cd $lang; make run;;
     PHP)     cd $lang; make run;;
     Python)  cd $lang; make run;;
