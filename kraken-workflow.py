@@ -2,8 +2,9 @@ def stage(ctx):
     langs = [
         ('C', 'gcc:11.3'),
         ('C++', 'gcc:11.3'),
-        ('Go', 'golang:1.18'),
+        ('C#', 'mono:6.12'),
         ('Java', 'openjdk:11'),
+        ('Go', 'golang:1.18'),
     ]
 
     jobs = []
