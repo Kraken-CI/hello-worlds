@@ -11,7 +11,7 @@ def stage(ctx):
         ('PHP', 'php:8.0'),
         ('Python', 'python:3.8'),
         ('Rust', 'rust:1.60'),
-        ('Ruby', '3.1'),
+        ('Ruby', 'ruby:3.1'),
         ('Swift', 'swift:5.6'),
     ]
 
