@@ -1,5 +1,9 @@
 run:
 	ruby hello_world.rb
 
+list:
+	cat hello_world.rb
 
-.PHONY: run
+all: list run
+
+.PHONY: list run

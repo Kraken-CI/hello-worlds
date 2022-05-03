@@ -1,5 +1,9 @@
 run:
 	groovy hello_world.groovy
 
+list:
+	cat hello_world.groovy
 
-.PHONY: run
+all: list run
+
+.PHONY: list run

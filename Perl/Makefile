@@ -1,5 +1,9 @@
 run:
 	perl hello_world.pl
 
+list:
+	cat hello_world.pl
 
-.PHONY: run
+all: list run
+
+.PHONY: list run

@@ -1,5 +1,9 @@
 run:
 	clj -M hello_world.clj
 
+list:
+	cat hello_world.clj
 
-.PHONY: run
+all: list run
+
+.PHONY: list run

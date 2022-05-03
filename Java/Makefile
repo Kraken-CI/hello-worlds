@@ -4,5 +4,9 @@ build:
 run: build
 	java HelloWorld
 
+list:
+	cat hello_world.java
 
-.PHONY: build run
+all: list run
+
+.PHONY: list build run

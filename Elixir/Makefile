@@ -1,5 +1,9 @@
 run:
 	elixir hello_world.exs
 
+list:
+	cat hello_world.exs
 
-.PHONY: run
+all: list run
+
+.PHONY: list run

@@ -1,5 +1,9 @@
 run:
 	python3 hello_world.py
 
+list:
+	cat hello_world.py
 
-.PHONY: run
+all: list run
+
+.PHONY: list run

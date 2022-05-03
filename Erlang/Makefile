@@ -4,5 +4,9 @@ build:
 run: build
 	erl -noshell -s hello_world start -s init stop
 
+list:
+	cat hello_world.erl
 
-.PHONY: build run
+all: list run
+
+.PHONY: list build run

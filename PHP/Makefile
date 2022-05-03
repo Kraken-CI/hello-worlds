@@ -1,5 +1,9 @@
 run:
 	php hello_world.php
 
+list:
+	cat hello_world.php
 
-.PHONY: run
+all: list run
+
+.PHONY: list run

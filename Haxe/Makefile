@@ -1,5 +1,9 @@
 run:
 	haxe --main HelloWorld --interp
 
+list:
+	cat hello_world.hx
 
-.PHONY: run
+all: list run
+
+.PHONY: list run

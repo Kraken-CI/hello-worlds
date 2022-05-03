@@ -4,5 +4,9 @@ build:
 run: build
 	mono ./hello_world.exe
 
+list:
+	cat hello_world.cs
 
-.PHONY: build run
+all: list run
+
+.PHONY: list build run

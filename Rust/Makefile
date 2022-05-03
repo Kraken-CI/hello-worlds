@@ -4,5 +4,9 @@ build:
 run: build
 	./hello_world
 
+list:
+	cat hello_world.rs
 
-.PHONY: build run
+all: list run
+
+.PHONY: list build run
