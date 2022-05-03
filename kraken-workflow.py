@@ -3,6 +3,7 @@ def stage(ctx):
         ('C', 'gcc:11.3'),
         ('C++', 'gcc:11.3'),
         ('C#', 'mono:6.12'),
+        ('Clojure', 'clojure:1.11'),
         ('Java', 'openjdk:11'),
         ('Go', 'golang:1.18'),
         ('Rust', 'rust:1.60'),
