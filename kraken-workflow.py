@@ -32,7 +32,7 @@ def stage(ctx):
             }, {
                 "tool": "shell",
                 "script": """
-                    sudo apt install highlight
+                    sudo apt install -y highlight
                     echo '#/bin/bash\nhighlight -O xterm256 $1' > cat.sh
                     chmod a+x cat.sh
                     sudo mv cat.sh /usr/bin/cat
