@@ -12,6 +12,7 @@ def stage(ctx):
         ('Haskell', 'haskell:9.2'),
         ('Haxe', 'haxe:4.2'),
         ('Java', 'openjdk:11'),
+        ('JavaScript', 'node:18.0'),
         ('Julia', 'julia:1.7'),
         ('Perl', 'perl:5.34'),
         ('PHP', 'php:8.0'),
