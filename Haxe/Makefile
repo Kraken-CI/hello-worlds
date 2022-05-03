@@ -2,7 +2,7 @@ run:
 	haxe --main HelloWorld --interp
 
 list:
-	cat hello_world.hx
+	cat HelloWorld.hx
 
 all: list run
 
