@@ -5,6 +5,7 @@ def stage(ctx):
         ('C#', 'mono:6.12'),
         ('Java', 'openjdk:11'),
         ('Go', 'golang:1.18'),
+        ('Swift', 'swift:5.6'),
     ]
 
     jobs = []
