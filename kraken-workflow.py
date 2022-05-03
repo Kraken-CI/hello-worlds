@@ -4,6 +4,7 @@ def stage(ctx):
         ('C++', 'gcc:11.3'),
         ('C#', 'mono:6.12'),
         ('Clojure', 'clojure:1.11'),
+        ('Dart', 'dart:2.16'),
         ('Elixir', 'elixir:1.13'),
         ('Erlang', 'erlang:23.3'),
         ('Go', 'golang:1.18'),
@@ -33,7 +34,7 @@ def stage(ctx):
                 "tool": "shell",
                 "script": """
                     sudo apt install -y highlight
-                    echo '#/bin/bash\nhighlight -O xterm256 $1' > cat.sh
+                    echo '#/bin/bash\nhighlight -O xterm256 --force $1' > cat.sh
                     chmod a+x cat.sh
                     sudo mv cat.sh /usr/bin/cat
                 """

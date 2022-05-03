@@ -10,6 +10,7 @@ case $lang in
     C++)     cd $lang; make all;;
     C#)      cd $lang; make all;;
     Clojure) cd $lang; make all;;
+    Dart)    cd $lang; make all;;
     Elixir)  cd $lang; make all;;
     Erlang)  cd $lang; make all;;
     Go)      cd $lang; make all;;
