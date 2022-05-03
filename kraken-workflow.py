@@ -6,9 +6,11 @@ def stage(ctx):
         ('Clojure', 'clojure:1.11'),
         ('Elixir', 'elixir:1.13'),
         ('Erlang', 'erlang:23.3'),
-        ('Java', 'openjdk:11'),
         ('Go', 'golang:1.18'),
+        ('Java', 'openjdk:11'),
+        ('Python', 'python:3.8'),
         ('Rust', 'rust:1.60'),
+        ('Ruby', '3.1'),
         ('Swift', 'swift:5.6'),
     ]
 

@@ -12,8 +12,10 @@ case $lang in
     Clojure) cd $lang; make run;;
     Elixir)  cd $lang; make run;;
     Erlang)  cd $lang; make run;;
-    Java)    cd $lang; make run;;
     Go)      cd $lang; make run;;
+    Java)    cd $lang; make run;;
+    Python)  cd $lang; make run;;
+    Ruby)    cd $lang; make run;;
     Rust)    cd $lang; make run;;
     Swift)   cd $lang; make run;;
 
