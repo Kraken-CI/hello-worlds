@@ -8,6 +8,7 @@ def stage(ctx):
         ('Erlang', 'erlang:23.3'),
         ('Go', 'golang:1.18'),
         ('Groovy', 'groovy:3.0'),
+        ('Haskell', 'haskell:9.2'),
         ('Haxe', 'haxe:4.2'),
         ('Java', 'openjdk:11'),
         ('Julia', 'julia:1.7'),

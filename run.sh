@@ -14,6 +14,7 @@ case $lang in
     Erlang)  cd $lang; make all;;
     Go)      cd $lang; make all;;
     Groovy)  cd $lang; make all;;
+    Haskel)  cd $lang; make all;;
     Haxe)    cd $lang; make all;;
     Java)    cd $lang; make all;;
     Julia)   cd $lang; make all;;
