@@ -7,6 +7,7 @@ def stage(ctx):
         ('Elixir', 'elixir:1.13'),
         ('Erlang', 'erlang:23.3'),
         ('Go', 'golang:1.18'),
+        ('Groovy', 'groovy:3.0'),
         ('Java', 'openjdk:11'),
         ('Perl', 'perl:5.34'),
         ('PHP', 'php:8.0'),

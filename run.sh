@@ -13,6 +13,7 @@ case $lang in
     Elixir)  cd $lang; make run;;
     Erlang)  cd $lang; make run;;
     Go)      cd $lang; make run;;
+    Groovy)  cd $lang; make run;;
     Java)    cd $lang; make run;;
     Perl)    cd $lang; make run;;
     PHP)     cd $lang; make run;;
