@@ -22,6 +22,7 @@ case $lang in
     Perl)    cd $lang; make all;;
     PHP)     cd $lang; make all;;
     Python)  cd $lang; make all;;
+    Raku)    cd $lang; make all;;
     Ruby)    cd $lang; make all;;
     Rust)    cd $lang; make all;;
     Swift)   cd $lang; make all;;
