@@ -8,6 +8,7 @@ def stage(ctx):
         ('Erlang', 'erlang:23.3'),
         ('Go', 'golang:1.18'),
         ('Java', 'openjdk:11'),
+        ('PHP', 'php:8.0'),
         ('Python', 'python:3.8'),
         ('Rust', 'rust:1.60'),
         ('Ruby', '3.1'),
