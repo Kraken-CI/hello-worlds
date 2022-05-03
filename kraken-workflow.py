@@ -5,6 +5,7 @@ def stage(ctx):
         ('C#', 'mono:6.12'),
         ('Java', 'openjdk:11'),
         ('Go', 'golang:1.18'),
+        ('Rust', 'rust:1.60'),
         ('Swift', 'swift:5.6'),
     ]
 
