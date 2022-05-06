@@ -37,7 +37,7 @@ def stage(ctx):
                 "tool": "shell",
                 "script": """
                     sudo apt install -y highlight
-                    echo '#/bin/bash\nhighlight -O ansi --force $1' > cat.sh
+                    echo '#/bin/bash\necho '\\n'; echo '\\n'; highlight -O ansi --force $1; echo '\\n'; echo '\\n'; ' > cat.sh
                     chmod a+x cat.sh
                     sudo mv cat.sh /usr/bin/cat
                 """
